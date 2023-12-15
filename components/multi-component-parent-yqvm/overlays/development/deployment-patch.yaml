@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/build-e2e-ffsq-tenant/build-suite-component-update-shjv/multi-component-parent-yqvm@sha256:5b9652b8dd0087abb5d72fbbe86b299b228ef6c6103718115bb5a1bfe31c3be5
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ffsq-tenant/build-suite-component-update-shjv/multi-component-parent-yqvm@sha256:46fc0da20575550c5074673c8b194c80ff313214c924b0705527d17058d7f88c
         name: container-image
         resources: {}
 status: {}

@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-yqvm
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ffsq-tenant/build-suite-component-update-shjv/multi-component-child-yqvm@sha256:5d2c63072a5631e0710b74f0a9b9fba4159c3b04f41fc69957da7451fe7160fc
         imagePullPolicy: Always
         name: container-image
         ports:

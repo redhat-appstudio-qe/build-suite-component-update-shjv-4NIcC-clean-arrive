@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-component-parent-yqvm
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ffsq-tenant/build-suite-component-update-shjv/multi-component-parent-yqvm@sha256:5b9652b8dd0087abb5d72fbbe86b299b228ef6c6103718115bb5a1bfe31c3be5
+        name: container-image
+        resources: {}
+status: {}
